@@ -1,0 +1,60 @@
+body{
+	background: #3f3f3f;
+	color: rgba(255,255,255,1);
+}
+#container{
+	background: rgba(250,250,250,0.5);
+	width: 800px;
+	margin:0 auto;
+	box-shadow: 0 0 5px rgba(255,255,255,1);
+	min-height: 400px;
+	padding-top: 5px;
+
+}
+
+header{
+	text-align: center;
+	background: black;
+	margin-top: 15px;
+}
+
+#results{
+	background: rgba(230,230,230,0.5);
+	width: 80%;
+	margin: 20px auto;
+	padding: 8px;
+	border-radius: 8px;
+	box-shadow: 0 0 5px white;
+	display: none;
+	color: black;
+}
+#search_box, button{
+	font-size: 20px;
+	padding: 5px;
+  margin-top: 20px;
+}
+
+#search_box{
+	margin-left: 80px;
+}
+
+div.user{
+	color: black;
+	margin-top: 30px;
+}
+
+img{
+	width: 100px;
+	height:100px;
+	border:4px solid white;
+	border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,1);
+}
+
+span#user{
+	margin-left: 30px;
+}
+
+h2#error{
+  color:red;
+}
